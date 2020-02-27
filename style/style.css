@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700|Work+Sans:100,200,300,400,500,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-family: Raleway;
+}
+
+.wrapper {
+  width: 1200px;
+  height: 800px;
+  margin: 40px auto;
+  background: linear-gradient(215.3deg, rgba(0, 255, 255, 0.878) 0%, rgba(76, 189, 255, 0.71) 100%);
+}
+
+.wrapper .leftSide {
+  width: 55%;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+
+.wrapper .leftSide .imG {
+  width: 70%;
+}
+
+.wrapper .leftSide .imG img {
+  width: 100%;
+  margin: 5% 0 0 -0.1%;
+}
+
+.wrapper .leftSide .headText h1 {
+  font-family: raleway;
+  font-weight: 300;
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+
+.wrapper .leftSide .headText .one {
+  display: block;
+  position: absolute;
+  width: 350px;
+  height: 1.5px;
+  background: #8400ff;
+  bottom: 49%;
+  left: 7%;
+}
+
+.wrapper .leftSide .headText .two {
+  display: block;
+  position: absolute;
+  width: 450px;
+  height: 1px;
+  background: #8400ff;
+  bottom: 47%;
+  left: 7%;
+}
+
+.wrapper .leftSide .headText .three {
+  display: block;
+  position: absolute;
+  width: 620px;
+  height: 1.5px;
+  background: #8400ff;
+  bottom: 45%;
+  left: 7%;
+}
+
+.wrapper .rightSide {
+  width: 45%;
+  height: 100%;
+  float: right;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.wrapper .rightSide .boxMain {
+  width: 80%;
+  height: 80%;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 23px 0px #3695e2;
+          box-shadow: 0 0 23px 0px #3695e2;
+}
+
+.wrapper .rightSide .boxMain .boxHeader {
+  width: 100%;
+  height: 20%;
+  background: black;
+  color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(45deg, #51e7ff, #80d7ff, #1ae4ff);
+}
+
+.wrapper .rightSide .boxMain .boxHeader h2 {
+  font-size: 40px;
+  font-family: 'Work Sans';
+  padding-left: 20px;
+}
+
+.wrapper .rightSide .boxMain .contant {
+  height: 80%;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 3px;
+}
+
+.wrapper .rightSide .boxMain .contant .item {
+  overflow: hidden;
+}
+
+.wrapper .rightSide .boxMain .contant .item .iteminfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 13.5px 20px 13.5px 20px;
+  /* background: rgba(129, 240, 255, 0.253); */
+  border-bottom: 2px solid #58e3ff;
+  color: rgba(64, 166, 197, 0.856);
+}
+
+.wrapper .rightSide .boxMain .contant .item .iteminfo .btn {
+  -webkit-transform: rotate(240deg);
+          transform: rotate(240deg);
+  -webkit-transition: 0.6s all linear;
+  transition: 0.6s all linear;
+}
+
+.wrapper .rightSide .boxMain .contant .item .iteminfo .btn img {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+.wrapper .rightSide .boxMain .contant .item .list li {
+  list-style: none;
+  background: linear-gradient(45deg, #7d34bc, #b047ff, #8c34ce);
+  text-align: center;
+  padding: 5px 15px 5px 15px;
+  margin-bottom: 1px;
+}
+
+.wrapper .rightSide .boxMain .contant .item .list li a {
+  text-decoration: none;
+  color: white;
+}
+
+ .list {
+  height: 0px;
+  transition: 0.6s all linear;
+}
+
+.active {
+  height: 90px;
+}
+
+.circle {width: 55%;height: 60%;position: absolute;bottom: -51px;left: 75px;}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+}
